@@ -1,0 +1,25 @@
+GET/domains/{domainid} #Get details of an existing domain
+
+{
+  "admin": "string",
+  "domainState": "OK",
+  "expirationDate": "2021-06-25T16:08:54.535Z",
+  "id": "string",
+  "name": "string",
+  "owner": "string",
+  "primaryNameServer": "string",
+  "secondaryNameServer": "string",
+  "tech": "string",
+  "zone": "string"
+}
+
+PATCH/domain/{domainid} #Update domain fields
+
+{
+  "admin": "string",
+  "owner": "string",
+  "primaryNameServer": "string",
+  "secondaryNameServer": "string",
+  "tech": "string",
+  "zone": "string"
+}
